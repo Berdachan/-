@@ -1,0 +1,38 @@
+# === 核心依赖 ===
+# OCR 与图像处理
+pytesseract==0.3.10
+Pillow==10.0.0
+pdf2image==1.17.0
+PyMuPDF==1.23.0
+
+# 文档解析
+python-docx==0.8.11
+
+# LLM 与 LangChain
+openai==1.0.0
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-openai==0.2.0
+
+# === 数据导出 ===
+openpyxl==3.1.0
+reportlab==4.0.0
+python-pptx==0.6.21
+
+# === 数据库 ===
+mysql-connector-python==8.0.0
+
+# === 数据可视化 ===
+matplotlib==3.8.0
+numpy==1.26.4
+
+# === 图像处理（质量检测）===
+opencv-python==4.8.1.78
+
+# === 辅助工具 ===
+pydantic==2.0.0
+python-dotenv==1.0.0
+psutil==5.9.0
+
+# Windows COM 接口（用于 .doc 文件转换）
+pywin32==306
